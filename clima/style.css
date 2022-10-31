@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(cielo.jpg);
+    font-family: 'Silkscreen';
+}
+
+.jy{
+    width: 300px;
+    height: 340px;
+    background: rgb(206, 210, 245);
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(127, 101, 240);
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+}
+
+button{
+    width: 98px;
+    height: 30;
+    display: block;
+    margin: 30px auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgb(140, 106, 196)  ;
+    display: block;
+    font-family: 'Silkscreen', cursive;
+}
+

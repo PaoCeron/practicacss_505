@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Roboto¨;
+    background: rgb(155,126,217);
+background: linear-gradient(90deg, rgba(155,126,217,1) 14%, rgba(206,162,240,1) 35%, rgba(229,227,255,1) 100%);
+}
+header{
+    width:100%;
+    margin:20px;
+    text-align:center;
+    color: #fff;
+    font-size: 25px;
+}
+img{
+    display: block;
+    width: 150px;
+    height:150px;
+    margin:auto;
+    background:#fff;
+    border:8px solid #fff;
+    border-radius: 100%;
+    position:relative;
+    z-index:1;
+}
+section{
+    width:400px;
+    height:550px;
+    background: #fff;
+    margin: auto;
+    border-radius:30px;
+    padding: 30px;
+    position:relative;
+    top: -60px;
+    text-align:center;
+    box-shadow:5px 5px 10px rgba(221, 192, 233, 0.993);
+}
+input{
+    display: block;
+    width: 100%;
+    height:60px;
+    margin:20px auto;
+    border: 2px solid lightpink;
+}
+input:focus{
+    box-shadow:0 0 20px violet;
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size:20px;
+    opacity:0.5;
+} 
+button{
+    width:100px;
+    height:45px;
+    margin:30px;
+    border:none;
+    border-radius:10px;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 5px;
+}
+button:hover{
+    transform: sacale(1.05);
+    box-shadow:5px 5px 5px gray;
+}
+.claro{
+    color:rgb(147, 90, 238);
+    opacity:0.5;
+}
+.mover{
+    margin-top:30px;
+
+}
+.btn-login{
+     background:rgba(80, 67, 250, 0.836);
+}
+.btn-face{
+    background:rgb(47, 137, 255);
+}
+.btn-git{
+    background:rgba(30, 0, 54, 0.719);
+}

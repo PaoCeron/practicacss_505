@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+    background: rgb(237,196,214);
+    background: radial-gradient(circle, rgba(237,196,214,1) 0%, rgba(159,78,205,1) 100%);
+    width:100%;
+    display:flex;
+    align-content:center;
+    justify-content: center;
+}
+.divFrase{
+    display: block;
+    width:500px;
+    height: auto;
+    padding:30px;
+    background: black;
+    color:white;
+    border-radius: 20px ;
+    opacity:0.5;
+    text-align: center;
+}
+h1,p{
+    font-size:40px;
+    font-weight:bold;
+    opacity: 1 ;
+}
+.boton{
+    display: block;
+    margin:20px auto ;
+    padding:20px ;
+    font-size:20px;
+    background: green;
+    color:white;
+    border-radius: 10px ;
+}

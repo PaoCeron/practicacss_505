@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin:30px;
+    background: rgb(207,178,227);
+background: radial-gradient(circle, rgba(207,178,227,1) 0%, rgba(117,111,168,1) 100%);
+}
+#resultado{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap:20px 10px;
+
+}
